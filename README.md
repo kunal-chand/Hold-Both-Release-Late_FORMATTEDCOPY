@@ -211,21 +211,6 @@ Hold-Both-Release-Late_FORMATTEDCOPY/
 └── requirements.txt
 ```
 
-## Upload to GitHub
-
-Create an empty GitHub repository named **`Hold-Both-Release-Late_FORMATTEDCOPY`**, then run:
-
-```bash
-git init
-git add .
-git commit -m "Initial waitlist hedging simulator"
-git branch -M main
-git remote add origin https://github.com/<your-username>/Hold-Both-Release-Late_FORMATTEDCOPY.git
-git push -u origin main
-```
-
-Replace `<your-username>` with the GitHub account that will own the repository.
-
 ## Next research steps
 
 1. Replace synthetic demand and valuation parameters with a documented calibration range from credible public sources or a sensitivity-analysis design.
