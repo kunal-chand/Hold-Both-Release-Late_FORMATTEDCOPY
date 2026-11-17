@@ -1,0 +1,50 @@
+{
+  "trains": [
+    {"name": "Train A", "capacity": 30, "fare": 42.0},
+    {"name": "Train B", "capacity": 28, "fare": 38.0},
+    {"name": "Train C", "capacity": 26, "fare": 35.0}
+  ],
+  "traveller_types": [
+    {
+      "name": "A-preferring",
+      "share": 0.4,
+      "values": [145.0, 118.0, 96.0],
+      "outside_option": 25.0,
+      "plan_change_probability": 0.04,
+      "cancellation_hassle": 2.0,
+      "value_noise_sd": 4.0
+    },
+    {
+      "name": "B-preferring",
+      "share": 0.35,
+      "values": [116.0, 145.0, 105.0],
+      "outside_option": 25.0,
+      "plan_change_probability": 0.04,
+      "cancellation_hassle": 2.0,
+      "value_noise_sd": 4.0
+    },
+    {
+      "name": "C-preferring",
+      "share": 0.25,
+      "values": [111.0, 103.0, 142.0],
+      "outside_option": 25.0,
+      "plan_change_probability": 0.04,
+      "cancellation_hassle": 2.0,
+      "value_noise_sd": 4.0
+    }
+  ],
+  "population_size": 120,
+  "waitlist_cap_fraction": 0.25,
+  "early_release_refund": 0.0,
+  "refund_eligibility_hours_before_departure": 24.0,
+  "chart_hours_before_departure": 8.0,
+  "resale_probability": 0.25,
+  "waitlist_cancel_fee": 60.0,
+  "confirmed_cancel_fee_early": 80.0,
+  "confirmed_cancel_fee_post_chart": 150.0,
+  "empty_berth_cost": 25.0,
+  "booking_earliest_hours": 72.0,
+  "booking_latest_hours": 12.0,
+  "default_strategy": "single",
+  "seed": 329
+}
